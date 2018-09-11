@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Modern+Antiqua');
+header {
+  padding: 50px 0;
+  margin: 0;
+}
+
+header h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 68px;
+  font-family: 'Modern Antiqua', cursive;
+}
+
+hr {
+  margin: 20px 0;
+}
+
+.container-fluid {
+  margin-top: 10px;
+}
+
+.container-fluid>div {
+  padding: 30px 10px;
+}
+
+.todo-item,
+#todo-form {
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+#todo-form {
+  margin-bottom: 20px;
+}
+
+.todo-title {
+  padding-left: 30px;
+  font-size: 24px;
+  text-transform: capitalize;
+  user-select: none;
+}
+
+.todo-title>i {
+  margin-right: 20px;
+}
