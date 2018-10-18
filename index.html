@@ -35,7 +35,7 @@
 				<hr>
 
 				<div v-for="todo, index in todoList" id="todo-item" :class="{'lighten-3': todo.isDone}" class="todo-item indigo z-depth-4"
-				 v-if="(showDone || !todo.isDone)">
+				 v-if="(showDone || !todo.isDone)" :key="todo.title">
 					<div class="switch left">
 						<label>
 							Not
